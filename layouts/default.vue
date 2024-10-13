@@ -19,11 +19,10 @@
         <!-- Left: Logo and Phone -->
         <div class="flex items-center space-x-4">
           <!-- Logo -->
-          <div class="w-1/5">
-            <img src="https://integritymedicalweightloss.com/wp-content/uploads/2020/06/logo-removebg-preview.png"
-              alt="Integrity Family Practice" />
+          <div class="w-40 h-16 relative overflow-visible">
+            <img src="../logo.png" alt="Integrity Family Practice" class="absolute top-1/2 left-0 transform -translate-y-1/2 h-24 w-auto object-contain" />
           </div>
-
+          
           <!-- Phone Number -->
           <div class="text-white text-sm flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
