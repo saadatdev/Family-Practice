@@ -15,16 +15,16 @@
       </div>
 
       <!-- Top Nav: Logo, Contact, and Links -->
-      <div id="mainheader" class="w-full mx-auto flex justify-between items-center py-3 px-9 bg-custom-teal">
+      <div id="mainheader" class="w-full h-full mx-auto flex justify-between items-center py-3 px-9 bg-gradient-to-r from-teal-600 to-green-600">
         <!-- Left: Logo and Phone -->
         <div class="flex items-center space-x-4">
           <!-- Logo -->
-          <div class="w-40 h-16 relative overflow-visible">
-            <img src="../logo.png" alt="Integrity Family Practice" class="absolute top-1/2 left-0 transform -translate-y-1/2 h-24 w-auto object-contain" />
+          <div class="w-60 h-20 relative overflow-visible">
+            <img src="../logo.png" alt="Integrity Family Practice" class="absolute top-1/2 right-6 transform -translate-y-1/2 h-84 w-90 " />
           </div>
           
           <!-- Phone Number -->
-          <div class="text-white text-sm flex items-center">
+          <div class="text-white text-sm flex items-center right-10">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
               class="w-5 h-5 mr-1">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -92,7 +92,7 @@
 
           <a href="#" class="hover:text-green-600">FAQs</a>
           <button
-            class="btn btn-outline px-8 border-green-600 text-white rounded-full hover:bg-sec-button hover:text-white transition">Sign
+            class="btn btn-outline px-8 border-icon  text-white rounded-full hover:bg-icon hover:text-white transition">Sign
             In</button>
         </nav>
 
@@ -106,18 +106,7 @@
       </div>
 
       <!-- Banner CTA -->
-      <div
-        class="w-full bg-gradient-to-r from-teal-600 to-green-600 flex justify-center items-center text-white py-3 relative z-40"
-        :class="{ 'hidden': !ctaVisible }">
-        <!-- Added z-40 to Banner CTA to make sure dropdown is above -->
-        <div class="text-sm">Now available: A faster way to treat ED. Stendra® works in as little as 15 minutes.</div>
-        <a href="#"
-          class="ml-4 bg-white text-green-600 px-4 py-2 rounded-full text-sm font-semibold hover:bg-gray-100">Get
-          started!</a>
-        <button @click="hideCta" class="absolute right-4 text-white text-lg">
-          &times;
-        </button>
-      </div>
+      
     </header>
 
     <!-- Main content slot -->
